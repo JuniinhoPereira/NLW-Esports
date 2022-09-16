@@ -4,13 +4,8 @@
   box-sizing: border-box;
 }
 
-section ul {
+ul {
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-
-  margin-top: 24px;
 }
 
 body {
@@ -63,6 +58,14 @@ section h2 {
 section p {
   letter-spacing: -0.18px;
   color: #a1a1aa;
+}
+
+section ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  margin-top: 24px;
 }
 
 .games-list img {
